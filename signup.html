@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="pagestlyes.css" rel="stylesheet">
+  <title>Customer Information</title>
+</head>
+<body>
+  <div class="container">
+  <nav class="sidebar">
+    <h2 class="sidebar-title"><a href=index.html>Square One Studio</a></h2>
+    <div class="nav-links">
+      <a href="woodworking.html" class="nav-link">Woodworking</a>
+      <a href="sewing.html" class="nav-link">Sewing</a>
+      <a href="pottery.html" class="nav-link">Pottery</a>
+      <a href="painting.html" class="nav-link">Painting</a>
+      <a href="signup.html" class="nav-link signup-button">Sign Up</a>
+    </div>
+  </nav>
+
+
+<div class="form-container">
+  <h2 class="text-2xl font-bold mb-6">Customer Information</h2>
+  <form>
+    <div class="mb-4">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+    </div>
+    <div class="mb-4">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+    </div>
+    <div class="mb-4">
+      <label for="phone" class="form-label">Phone</label>
+      <input type="tel" id="phone" name="phone" class="form-input" placeholder="Enter your phone number" required>
+    </div>
+    <div class="mb-4">
+      <label for="address" class="form-label">Address</label>
+      <textarea id="address" name="address" class="form-input" placeholder="Enter your address" rows="3" required></textarea>
+    </div>
+    <div class="form-checkbox">
+      <input type="checkbox" id="age-verification" name="age-verification" required>
+      <label for="age-verification">I confirm that I am at least 18 years old</label>
+    </div>
+    <div class="flex justify-end">
+      <button type="submit" class="form-submit">
+        Submit
+      </button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
